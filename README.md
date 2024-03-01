@@ -15,7 +15,7 @@
 ```bash
 pip install spam-classifier-library
 
-
+```bash
 Пример использования: 
 from TotoSpam.utils import load_model, load_vectorizer, classify_sentence
 
