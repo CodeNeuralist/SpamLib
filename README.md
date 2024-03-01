@@ -1,13 +1,31 @@
 # Spam Classifier Library
 
-![GitHub](https://img.shields.io/github/license/yourusername/yourproject)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/yourproject)
+Это библиотека для классификации спама с использованием машинного обучения.
 
-A library for spam classification using neural networks in Python.
+## Введение
 
-## Installation
+Эта библиотека предоставляет модель для определения спама в текстовых данных. Она использует различные методы машинного обучения для обучения на текстовых данных, чтобы определить, является ли сообщение спамом или нет.
 
-You can install the library via pip:
+**Важно:** Эта модель все еще находится в ранней стадии разработки и не распознает все виды спама. Разработчики работают над улучшением точности и расширением функциональности.
+
+## Установка
+
+Вы можете установить библиотеку с помощью pip:
 
 ```bash
-pip install TotoSpam
+pip install spam-classifier-library
+
+
+Пример использования: 
+from TotoSpam.utils import load_model, load_vectorizer, classify_sentence
+
+# Загрузка предварительно обученной модели и векторизатора
+model = load_model(11730, 32, 1)
+vectorizer = load_vectorizer()
+
+# Пример нового предложения, которое нуж.но классифицировать
+new_sentence = ""
+
+# Классификация предложения
+result = classify_sentence(new_sentence, model, vectorizer)
+print(result)
