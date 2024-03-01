@@ -1,18 +1,20 @@
 from setuptools import setup, find_packages
 
 setup(
+    include_package_data=True,
     name='spam_classifier_library',  # Имя вашего пакета
-    version='0.1.0',  # Версия вашего пакета
+    version='0.1.7',  # Версия вашего пакета
     packages=find_packages(),  # Список пакетов для включения в ваш пакет
     author='Кирилл',  # Ваше имя
     author_email='totoshkus@gmail.com',  # Ваш адрес электронной почты
     description='A library for spam classification',  # Краткое описание вашего пакета
     long_description=open('README.md').read(),  # Длинное описание вашего пакета (из файла README.md)
     long_description_content_type='text/markdown',  # Тип содержимого вашего длинного описания
-    url='https://github.com/yourusername/yourproject',  # URL-адрес вашего репозитория на GitHub
+    url='https://github.com/CodeNeuralist/SpamLib',  # URL-адрес вашего репозитория на GitHub
     install_requires=[
         'torch>=1.9.0',
         'scikit-learn>=0.24.2',
+        'GitPython>=3.1.42',
     ],  # Список зависимостей вашего пакета
     classifiers=[  # Классификаторы, которые описывают ваш пакет
         'Development Status :: 3 - Alpha',

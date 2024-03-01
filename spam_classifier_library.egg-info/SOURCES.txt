@@ -1,0 +1,11 @@
+README.md
+setup.py
+TotoSpam/__init__.py
+TotoSpam/model.py
+TotoSpam/utils.py
+TotoSpam/vectorizer.py
+spam_classifier_library.egg-info/PKG-INFO
+spam_classifier_library.egg-info/SOURCES.txt
+spam_classifier_library.egg-info/dependency_links.txt
+spam_classifier_library.egg-info/requires.txt
+spam_classifier_library.egg-info/top_level.txt

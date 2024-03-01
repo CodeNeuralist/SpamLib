@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: spam-classifier-library
+Version: 0.1.7
+Summary: A library for spam classification
+Home-page: https://github.com/CodeNeuralist/SpamLib
+Author: Кирилл
+Author-email: totoshkus@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Spam Classifier Library
+
+![GitHub](https://img.shields.io/github/license/yourusername/yourproject)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/yourproject)
+
+A library for spam classification using neural networks in Python.
+
+## Installation
+
+You can install the library via pip:
+
+```bash
+pip install TotoSpam
