@@ -21,7 +21,7 @@ pip install spam-classifier-library
 from TotoSpam.utils import load_model, load_vectorizer, classify_sentence
 
 # Загрузка предварительно обученной модели и векторизатора
-model = load_model(11730, 32, 1)
+model = load_model(11787, 32, 1)
 vectorizer = load_vectorizer()
 
 # Пример нового предложения, которое нуж.но классифицировать
