@@ -5,7 +5,7 @@ setup(
     name='spam_classifier_library',  # Имя вашего пакета
     version='0.1.7',  # Версия вашего пакета
     packages=find_packages(),  # Список пакетов для включения в ваш пакет
-    author='Кирилл',  # Ваше имя
+    author='NeuroSpaceX',  # Ваше имя
     author_email='hzhzhzhzhzhz@gmail.com',  # Ваш адрес электронной почты
     description='A library for spam classification',  # Краткое описание вашего пакета
     long_description=open('README.md').read(),  # Длинное описание вашего пакета (из файла README.md)
